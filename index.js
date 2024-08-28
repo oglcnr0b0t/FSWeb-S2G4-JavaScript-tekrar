@@ -98,8 +98,12 @@ let ucetambolunenler,
   tekraredensayilar;
 
 // 3a çözümü
-
-/* kodlar buraya */
+ucetambolunenler = []
+sayilar.forEach((sayi) => {
+if(sayi%3 === 0) {
+ucetambolunenler.push(sayi)
+}
+}) 
 
 // 3b çözümü:
 
